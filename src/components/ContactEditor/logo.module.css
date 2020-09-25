@@ -1,0 +1,10 @@
+h1 {
+  color: #4caf50;
+}
+.appear {
+  opacity: 0;
+}
+.appearActive {
+  opacity: 1;
+  transition: all 500ms linear;
+}

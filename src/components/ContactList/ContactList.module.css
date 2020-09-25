@@ -1,0 +1,28 @@
+.enter {
+  transform: scale(0);
+  opacity: 0;
+}
+.enterActive {
+  transform: scale(1);
+  opacity: 1;
+  transition: all 250ms;
+}
+.exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+.exitActive {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 250ms;
+}
+.listItem {
+  border: 1px solid green;
+  list-style: none;
+  width: 350px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  line-height: 2;
+}
